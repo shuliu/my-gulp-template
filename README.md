@@ -15,7 +15,7 @@
 
 
 folder tree
-
+```
 |-app/
 |-bower_components/
 |-dist/
@@ -26,3 +26,4 @@ folder tree
 |-conf.js
 |-gulpfile.coffee
 |-package.json
+```

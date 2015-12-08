@@ -33,6 +33,7 @@ folder tree
 ```
 git clone git@github.com:shuliu/my-gulp-template.git newFolderName
 npm install
+bower init
 bower install gsap bootstrap susy compass-breakpoint components-font-awesome --save
 ```
 

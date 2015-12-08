@@ -9,6 +9,7 @@
 - components-font-awesome
 
 ## npm
-  coffeescript
-  sass
-  gulp-connect
+- coffeescript
+- sass
+- gulp-connect
+

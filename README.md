@@ -30,6 +30,12 @@ folder tree
 
 ## install
 
+```
+git clone git@github.com:shuliu/my-gulp-template.git newFolderName
+npm install
+bower install gsap bootstrap susy compass-breakpoint components-font-awesome --save
+```
+
 **run gulpfile.coffee**
 
 ```

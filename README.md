@@ -27,3 +27,11 @@ folder tree
 |-gulpfile.coffee
 |-package.json
 ```
+
+## install
+
+**run gulpfile.coffee**
+
+```
+npm i -D coffee-script
+```

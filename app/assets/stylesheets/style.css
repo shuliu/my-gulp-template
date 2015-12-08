@@ -1,0 +1,9 @@
+body {
+  max-width: 1280px;
+  height: 2000px; }
+
+.container {
+  background-color: #C00;
+  color: #FFF;
+  opacity: 0.25;
+  font-size: 70%; }

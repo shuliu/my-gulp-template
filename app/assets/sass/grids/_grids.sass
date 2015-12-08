@@ -1,0 +1,39 @@
+
+
+
+$grid-background-column-color: rgba(#F15A14, 0.2)
+$grid-background-baseline-color: rgba(#009A8E, 0.3)
+// $susy: ( columns: 12, gutters: 1/4 )
+$grid-columns: 12
+$susy-debug: hide
+$susy: ( flow: ltr, math: fluid, output: float, gutter-position: after, container: auto, container-position: center, columns: $grid-columns, gutters: .25, column-width: false, global-box-sizing: content-box, last-flow: to, debug: ( image: $susy-debug, color: rgba(#66f, .25), output: background, toggle: top right ), use-custom: ( background-image: true, background-options: false, box-sizing: true, clearfix: false, rem: true ) )
+
+$larger-than-mobile: 400px
+$larger-than-phablet: 550px
+$larger-than-tablet: 750px
+$larger-than-desktop: 1000px
+$larger-than-desktophd: 1200px
+
+
+// 先設定最小手機size的樣式
+// @media (min-width: $larger-than-mobile) // [最小 > 大一點的手機] Larger than mobile
+// @media (min-width: $larger-than-phablet) // [大一點的手機 > tablet] Larger than phablet (also point when grid becomes active)
+// @media (min-width: $larger-than-tablet) // [tablet > PC-1000] Larger than tablet
+// @media (min-width: $larger-than-desktop) // [PC-1000 > PC-1200] Larger than desktop
+// @media (min-width: $larger-than-desktophd) // [PC-1200 以上] Larger than Desktop HD
+
+// 容器
+// .wrapper
+//  +container($larger-than-mobile)
+//  +breakpoint($larger-than-phablet)
+//    +container($larger-than-phablet)
+//  +breakpoint($larger-than-tablet)
+//    +container($larger-than-tablet)
+//  +breakpoint($larger-than-desktop)
+//    +container($larger-than-desktop)
+//  +breakpoint($larger-than-desktophd)
+//    +container($larger-than-desktophd)
+
+// @for $i from 1 through $grid-columns
+//  .span#{$i}
+//    @include span($i)
